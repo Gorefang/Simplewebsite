@@ -6,6 +6,7 @@ body {
     background-position: right;
     background-attachment: fixed;
     background-size: 300px 300px;
+    padding: 10px
     
     }
 h1 {
@@ -29,5 +30,6 @@ h1 {
     padding: 10px
     
 }
+
 
 
