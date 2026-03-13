@@ -4,9 +4,6 @@ body {
     background-repeat: no-repeat;
     padding: 0;
     }
-h1 {
-    position: center;
-}
 .logo-container {
     background-image: url("image/Cybernewfy-logo.png");
     background-repeat: no-repeat;
@@ -20,6 +17,10 @@ h1 {
 }
 .greetings-container {
     text-align: centre;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
 }
 .audio-container {
    width: 300px;
