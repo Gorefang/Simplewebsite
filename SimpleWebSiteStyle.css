@@ -30,14 +30,14 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
-    max-width: 600px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 10px;    
 }
 
 .left-column,
 .right-column {
-    flex: 1 1 800px;
+    flex: 1 1 600px;
 }
 
 .right-column {
@@ -52,6 +52,7 @@ h1 {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
 
 
 
