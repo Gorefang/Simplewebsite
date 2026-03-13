@@ -42,14 +42,14 @@ body {
 .left-column {
     flex: 7 1 0%;
     min-width: 300px;
-    position: absolute;
+    position: relative;
     top: 30%;
     left: 20%;
     transform: translate(-50%, -50%);
 }
 
 .right-column {
-    position: absolute;
+    position: relative;
     top: 50%;
     left:50%;
     transform: translate(-50%, -50%);
