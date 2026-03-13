@@ -55,9 +55,10 @@ h1 {
 }
 
 #calendar {
-    width: 12%;
-    height: 12%;
+    width: 20%;
+    aspect-ratio: 1 /1;
 }
+
 
 
 
