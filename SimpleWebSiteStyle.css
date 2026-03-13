@@ -54,7 +54,10 @@ h1 {
     border-radius: 4px;
 }
 
-
+#calendar {
+    width: 300px;
+    height: 300px;
+}
 
 
 
