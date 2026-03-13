@@ -40,6 +40,18 @@ h1 {
     flex: 1 1 300px;
 }
 
+.right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.under-construction {
+    max-width: 200px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
 
 
 
