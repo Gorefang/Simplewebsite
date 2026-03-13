@@ -1,0 +1,17 @@
+document.addEventListener('DOMContentLoaded', function() {
+    var calendarEl = document.getElementById('calendar');
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+        initialView: 'dayGridMonth',
+        headerToolbar: {
+            left: 'prev,next today',
+            center: 'title',
+            right: 'dayGridMonth,timeGridWeek,timeGridDay'
+        },
+        events: [
+            // You can define static events here
+            { title: 'My Event', start: '2025-07-01' },
+            { title: 'Another Event', start: '2025-07-15', end: '2025-07-17' }
+        ]
+    });
+    calendar.render();
+});
