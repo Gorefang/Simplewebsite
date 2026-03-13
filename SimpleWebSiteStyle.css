@@ -1,14 +1,8 @@
 
 body {
     background-color: #2D4164;
-    background-image: url("image/Under-development.png");
     background-repeat: no-repeat;
-    background-position: right;
-    background-attachment: fixed;
-    background-size: 300px 300px;
-    padding: 10px;
-    position: relative;
-    min-height: 100vh;
+    padding: 0;
     }
 h1 {
     position: center;
@@ -31,6 +25,7 @@ h1 {
     padding: 10px
     
 }
+
 
 
 
