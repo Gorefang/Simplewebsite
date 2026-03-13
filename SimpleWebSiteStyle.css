@@ -18,7 +18,7 @@ body {
 .greetings-container {
     text-align: centre;
     position: absolute;
-    top: 30%;
+    top: 50%;
     left:50%;
     transform: translate(-50%, -50%);
 }
@@ -42,6 +42,10 @@ body {
 .left-column {
     flex: 7 1 0%;
     min-width: 300px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-50%, -50%);
 }
 
 .right-column {
