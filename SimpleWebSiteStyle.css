@@ -42,17 +42,9 @@ body {
 .left-column {
     flex: 7 1 0%;
     min-width: 300px;
-    position: absolute;
-    top: 30%;
-    left: 20%;
-    transform: translate(-50%, -50%);
 }
 
 .right-column {
-    position: absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%, -50%);
     flex: 3 1 0%;
     min-width: 300px;
     display: flex;
