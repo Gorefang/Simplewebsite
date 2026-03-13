@@ -15,3 +15,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     calendar.render();
 });
+
+if (!calendarEl) {
+    console.error('Calendar element not found!');
+    return;
+}
+
+console.log('Calendar rendered');
