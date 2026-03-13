@@ -27,7 +27,7 @@ h1 {
 }
 
 .main-content {
-    display: flex;
+    display: nowrap;
     flex-wrap: wrap;
     gap: 2rem;
     max-width: 1200px;
@@ -37,7 +37,8 @@ h1 {
 
 .left-column,
 .right-column {
-    flex: 1 1 600px;
+    flex: 1 1 50%;
+    min-width 300px;
 }
 
 .right-column {
@@ -52,6 +53,7 @@ h1 {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
 
 
 
