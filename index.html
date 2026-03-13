@@ -5,7 +5,8 @@
 		<meta http-equiv="Content-Security-Policy"
 			content="default-src 'none'; 
               script-src 'self' cdn.jsdelivr.net; 
-              style-src 'self' cdn.jsdelivr.net; 
+              style-src 'self' 'unsafe-inline' cdn.jsdelivr.net; 
+              font-src data:;
               img-src 'self' data:; 
               media-src 'self'; 
               connect-src 'self';">
@@ -13,11 +14,6 @@
 		<meta name="author" content="Konstantinos Samlidis">
 		<meta name="keywords" content="simple personal website">
         <link rel="stylesheet" href="SimpleWebSiteStyle.css">
-		<link 
-			rel="stylesheet" 
-			href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.20/index.global.min.css"
-			crossorigin="anonymous"
-			integrity="sha384-cdgKlW4XCZfQ8yQFLScLHBujFrHf3sMYBPBjRimt2H/ut44fe4t/PUk3luazptar">
 		<script 
 			src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.20/index.global.min.js"
 			integrity="sha384-cdgKlW4XCZfQ8yQFLScLHBujFrHf3sMYBPBjRimt2H/ut44fe4t/PUk3luazptar"
@@ -97,6 +93,7 @@
 		<footer>This is where footer, copyright, etc goes but I have not added anything since 2025 and this probably won't change in 2026</footer>
         </body>
 </html>
+
 
 
 
